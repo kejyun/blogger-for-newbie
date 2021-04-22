@@ -1,0 +1,74 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>部落客菜雞修煉場 – 留言板</title>
+    <link>https://blogger-for-newbie.kejyun.com/categories/%E7%95%99%E8%A8%80%E6%9D%BF/</link>
+    <description>Recent content in 留言板 on 部落客菜雞修煉場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 22 Apr 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://blogger-for-newbie.kejyun.com/categories/%E7%95%99%E8%A8%80%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 變更擁有者</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/disqus/change-ownership/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/disqus/change-ownership/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;提供留言板權限&#34;&gt;提供留言板權限&lt;/h2&gt;
+&lt;p&gt;在 &lt;code&gt;組織(ORGANIZATION)&lt;/code&gt; 的頁籤選擇 &lt;code&gt;Admins&lt;/code&gt;，可以將您想要提供管理者權限的 &lt;code&gt;Disqus 使用者帳號&lt;/code&gt; 加入，這樣該帳號就可以有管理者權限管理留言&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/disqus-add-user-privilege.png&#34; alt=&#34;使用者權限&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;變更新擁有者-email&#34;&gt;變更新擁有者 Email&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;新擁有者 Email 必須未註冊過 Disqus&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;當你想要將整個留言板管理權限移轉至其他 ``未註冊 Disqus email 帳號&lt;code&gt;時，可以直接在&lt;/code&gt;Account` 將帳號及 Email 設定為新的 Email&lt;/p&gt;
+&lt;p&gt;該 Email 會需要驗證 Email 是否存在，驗證完成後即可用 &lt;a href=&#34;https://disqus.com/forgot/&#34;&gt;Disqus 忘記密碼&lt;/a&gt; 功能重新取得新的 Email&lt;/p&gt;
+&lt;p&gt;確認完畢後，即可將您 Disqus 帳號下的留言板直接轉移至其他帳號&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/disqus-change-email.png&#34; alt=&#34;使用者權限&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;移轉至已存在-email&#34;&gt;移轉至已存在 Email&lt;/h2&gt;
+&lt;p&gt;聯絡官方，提供您的 &lt;code&gt;帳號&lt;/code&gt;、&lt;code&gt;email&lt;/code&gt; 及需要移轉的 &lt;code&gt;留言板連結名稱&lt;/code&gt;，以及移轉對象的 &lt;code&gt;帳號&lt;/code&gt;、&lt;code&gt;email&lt;/code&gt;，請官方進行移轉&lt;/p&gt;
+&lt;p&gt;目前沒有可以直接移轉的功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;registered Disqus username of the current owner&lt;/li&gt;
+&lt;li&gt;shortname(s) of the site(s) which you would like transferred&lt;/li&gt;
+&lt;li&gt;registered Disqus username of the desired new owner&lt;/li&gt;
+&lt;li&gt;registered email address of new desired owner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.disqus.com/en/articles/1717181-how-do-i-change-the-ownership-of-a-site-or-organization&#34;&gt;How do I change the ownership of a Site or Organization? | Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://disqus.com/home/settings/account/&#34;&gt;Settings · Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Disqus</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/disqus/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/disqus/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;官方&#34;&gt;官方&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
