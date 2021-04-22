@@ -1,0 +1,537 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>部落客菜雞修煉場 – 部落客</title>
+    <link>https://blogger-for-newbie.kejyun.com/tags/%E9%83%A8%E8%90%BD%E5%AE%A2/</link>
+    <description>Recent content in 部落客 on 部落客菜雞修煉場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 22 Apr 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://blogger-for-newbie.kejyun.com/tags/%E9%83%A8%E8%90%BD%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 教學文件</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Content Group 內容分類</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/content-group/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/content-group/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;設定方式&#34;&gt;設定方式&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// gtag.js:
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;gtag&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;config&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;GA_TRACKING_ID&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;content_group&amp;lt;索引號碼&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;群組名稱&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;});&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// analytics.js
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ga&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;set&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;contentGroup&amp;lt;索引號碼&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;群組名稱&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// gtag.js:
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;gtag&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;config&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;GA_TRACKING_ID&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;content_group1&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;男性&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;});&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// analytics.js:
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ga&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;set&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;contentGroup1&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;男性&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.google.com/analytics/answer/2853546?hl=zh-Hant&#34;&gt;建立/編輯內容群組 - Analytics (分析)說明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.google.com/analytics/answer/2853423?hl=zh-Hant&#34;&gt;關於內容分類 - Analytics (分析)說明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=auDIobdIeqs&#34;&gt;Content Grouping Overview - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Facebook</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/facebook/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/facebook/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;oglocale&#34;&gt;og:locale&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/translations/FacebookLocales.xml&#34;&gt;FacebookLocales&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.facebook.com/tools/debug/sharing/&#34;&gt;Sharing Debugger - Facebook for Developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.facebook.com/tools/comments/&#34;&gt;留言管理工具 - Facebook for Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google Analytics</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCJ5UyIAa5nEGksjcdp43Ixw&#34;&gt;Google Analytics - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google News</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/platform/google-news/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/platform/google-news/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;publisher-center&#34;&gt;Publisher Center&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://partnerdash.google.com/partnerdash/d/news#p:id=pfehome&#34;&gt;Google News Publisher Center&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;support&#34;&gt;Support&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.google.com/news/publisher-center/contactflow?hl=en&amp;amp;ctx=EmailFooter&amp;amp;visit_id=1-636625539294312818-1328445925&amp;amp;rd=1&#34;&gt;Google News - Publisher Center Help&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Line Message API</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/line/message-api/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/line/message-api/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;line-message-api&#34;&gt;Line Message API&lt;/h1&gt;
+&lt;h2 id=&#34;建立-line-message-api-channel&#34;&gt;建立 Line Message API Channel&lt;/h2&gt;
+&lt;p&gt;在 Line Developers 點選 &lt;code&gt;Crete new channel&lt;/code&gt; 按鈕，建立新頻道&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-create-new-channel.png&#34; alt=&#34;Create New Channel&#34;&gt;&lt;/p&gt;
+&lt;p&gt;頻道類型選擇 &lt;code&gt;Messaging API&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-choose-messaging-api.png&#34; alt=&#34;Choose Messaging Api&#34;&gt;&lt;/p&gt;
+&lt;p&gt;輸入 &lt;code&gt;App 名稱&lt;/code&gt; 及選擇 &lt;code&gt;方案&lt;/code&gt; 為 &lt;code&gt;Developer Trial&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Developer Trial&lt;/code&gt; 方案才可以不用付費進行推送訊息 Push Message 測試&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-app-name-and-plan.png&#34; alt=&#34;Choose Messaging Api&#34;&gt;&lt;/p&gt;
+&lt;p&gt;同意使用條款&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-agree-terms-of-use.png&#34; alt=&#34;Agree Terms of use&#34;&gt;&lt;/p&gt;
+&lt;p&gt;建立 &lt;code&gt;Line Message API Channel&lt;/code&gt; 完成&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-create-finish.png&#34; alt=&#34;Line Message channel create finish&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用-line-message-api-傳送訊息&#34;&gt;使用 Line Message API 傳送訊息&lt;/h2&gt;
+&lt;p&gt;以 Line PHP 套件 &lt;a href=&#34;https://github.com/line/line-bot-sdk-php&#34;&gt;GitHub - line/line-bot-sdk-php: SDK of the LINE Messaging API for PHP&lt;/a&gt; 為例&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;安裝 Line PHP 套件&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;composer require linecorp/line-bot-sdk
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;建立 LineBot Client&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;php&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;$httpClient&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;\LINE\LINEBot\HTTPClient\CurlHTTPClient&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;channel access token&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;$bot&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;\LINE\LINEBot&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$httpClient&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;channelSecret&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;channel secret&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;取得 LineBot Client &lt;channel access token&gt; 及 &lt;channel secret&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在程式碼中的 &lt;code&gt;&amp;lt;channel access token&amp;gt;&lt;/code&gt; 及 &lt;code&gt;&amp;lt;channel secret&amp;gt;&lt;/code&gt; 都可以在頻道設定中找到&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-setting.png&#34; alt=&#34;Line Message channel setting&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在下方即可找到相關 token&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-secret.png&#34; alt=&#34;Line Message channel secret&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;channel access token&amp;gt;&lt;/code&gt; 一開始沒有，需要點選 &lt;code&gt;Issue&lt;/code&gt; 按鈕產生&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-access-token-issue.png&#34; alt=&#34;Line Message channel access token&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-access-token-issue-it.png&#34; alt=&#34;Line Message channel access token&#34;&gt;&lt;/p&gt;
+&lt;p&gt;建立完成後即可看到產生的 &lt;code&gt;&amp;lt;channel access token&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-access-token-issue-finish.png&#34; alt=&#34;Line Message channel access token&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;傳送訊息&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;傳入指定的 &lt;code&gt;Line @&lt;/code&gt; &lt;em&gt;user id&lt;/em&gt; 即可將訊息推送給訂閱的人&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;php&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;$response&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;$bot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;pushMessage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;user id&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TextMessageBuilder&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;test text1&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;test text2&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;test text3&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;user id&lt;/em&gt; 可以在頻道設定最下方找到&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-user-id.png&#34; alt=&#34;Line Message channel user id&#34;&gt;&lt;/p&gt;
+&lt;p&gt;傳送過去後即可看到剛剛設定的訊息&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-demo.png&#34; alt=&#34;Line Message channel user id&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/line/line-bot-sdk-php&#34;&gt;GitHub - line/line-bot-sdk-php: SDK of the LINE Messaging API for PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.line.biz/en/docs/messaging-api/&#34;&gt;Messaging API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.line.biz/en/docs/messaging-api/building-sample-bot-with-heroku/&#34;&gt;Building a sample bot with Heroku&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.line.biz/en/reference/messaging-api/&#34;&gt;Messaging API reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Youtube 播放器 Mobile Friendly</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/youtube/embed-player-mobile-friendly/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/youtube/embed-player-mobile-friendly/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Youtube 原生播放器只能指定固定的寬高，在手機解析度較低時，常常會導致破版，可以用下列方法讓它自動隨遮手機解析度寬度縮放&lt;/p&gt;
+&lt;h2 id=&#34;加入-css&#34;&gt;加入 CSS&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/* Youtube Reflexive */&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;vid-container&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;position&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;relative&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;padding-bottom&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;50&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;padding-top&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;35&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;px&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;overflow&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;hidden&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;vid-container&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;iframe&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;vid-container&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;vid-container&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;embed&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;position&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;absolute&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;top&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;left&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;設定播放器-html&#34;&gt;設定播放器 HTML&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;vid-container&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;iframe&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;xxx&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;xxx&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.youtube.com/embed/(EMBED CODE)&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;frameborder&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;iframe&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;現在 Youtube 嵌入播放器就可以正常地隨著手機解析度大小縮放摟！&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.webatude.com/how-to-make-youtube-videos-reflexive-and-mobile-friendly/&#34;&gt;How To Make YouTube Embed Videos Reflexive / Mobile Friendly – WebAtude – Internet Marketing Done Right!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Custom Dimension 自訂維度</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/custom-dimension/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/custom-dimension/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;自訂維度範圍&#34;&gt;自訂維度範圍&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;../images/custom-dimension-scope.png&#34; alt=&#34;自訂維度範圍&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;產品 – 將值套用至已設定此值的產品 (僅限「加強型電子商務」)。&lt;/li&gt;
+&lt;li&gt;匹配 – 將值套用至已設定此值的單次匹配。&lt;/li&gt;
+&lt;li&gt;工作階段 – 將值套用至單一工作階段中的所有匹配。&lt;/li&gt;
+&lt;li&gt;使用者 - 將值套用至目前和未來工作階段中的所有匹配，直到此值變更或自訂維度不再有效為止。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;產品&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;指定頁面&lt;/code&gt; 設定指定產品數值資料&lt;/p&gt;
+&lt;h3 id=&#34;匹配hit&#34;&gt;&lt;em&gt;匹配（HIT）&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;單一個 PV 會有自己的紀錄資料&lt;/p&gt;
+&lt;p&gt;PV1 的 Custom Dimension 若為 1 的話，會記錄資料 1，若之後再度造訪此頁面，將 Custom Dimension 設定為 2 時，會再記錄 2&lt;/p&gt;
+&lt;h3 id=&#34;工作階段&#34;&gt;&lt;em&gt;工作階段&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;在同一個工作階段，會記錄成相同的值&lt;/p&gt;
+&lt;p&gt;工作階段時間範圍為 30 分鐘，在第一次造訪 Custom Dimension 若為 1 會記錄資料為 1，若在工作階段中最後時間造訪，將 Custom Dimension 設為 99 時，則前面所有的 Custom Dimension 皆會設定為 99&lt;/p&gt;
+&lt;h3 id=&#34;使用者&#34;&gt;&lt;em&gt;使用者&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;同一個使用者造訪頁面，會紀錄同一個 Custom Dimension 的資料&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.google.com/analytics/answer/2709828?hl=zh-Hant&#34;&gt;自訂維度和指標 - Analytics (分析)說明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/gtagjs/custom-dims-mets&#34;&gt;Custom dimensions and metrics with gtag.js  |  Analytics for Web (gtag.js)  |  Google Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google AMP</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/platform/google-amp/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/platform/google-amp/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;官方&#34;&gt;官方&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ampproject.org/&#34;&gt;Accelerated Mobile Pages Project – AMP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ampproject.org/docs/&#34;&gt;Docs – AMP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;facebook-comments-留言&#34;&gt;Facebook Comments 留言&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;1. 載入 scripts&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;custom-element&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;amp-facebook-comments&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;https://cdn.ampproject.org/v0/amp-facebook-comments-0.1.js&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;2. AMP Facebook 留言設定&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;amp-facebook-comments&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;486&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;657&lt;/span&gt;
+    &lt;span style=&#34;color:#c4a000&#34;&gt;layout&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;responsive&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#c4a000&#34;&gt;data-numposts&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;5&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#c4a000&#34;&gt;data-href&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;https://www.kejyun.com&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;amp-facebook-comments&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ampproject.org/docs/reference/components/amp-facebook-comments&#34;&gt;amp-facebook-comments – AMP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ampbyexample.com/components/amp-facebook-comments/&#34;&gt;amp-facebook-comments – AMP example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google Tag Manager</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/google-tag-manager/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/google-tag-manager/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@papaya116/%E6%A6%82%E5%BF%B5%E7%AF%87-%E7%B5%A6%E8%A1%8C%E9%8A%B7%E4%BA%BA%E7%9A%84gtm%E5%85%A5%E9%96%80-%E5%9F%8Bga%E7%A2%BC-fb-pixel%E4%B8%8D%E6%B1%82%E4%BA%BA-2f70f39863d6&#34;&gt;【【概念篇】給行銷人的GTM入門－埋GA碼、FB Pixel不求人 – papaya tsai – Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@papaya116/%E5%AF%A6%E6%88%B0%E7%AF%87-%E7%B5%A6%E8%A1%8C%E9%8A%B7%E4%BA%BA%E7%9A%84gtm%E5%85%A5%E9%96%80-%E5%9F%8Bga%E7%A2%BC-fb-pixel%E4%B8%8D%E6%B1%82%E4%BA%BA-d59bef2482a7&#34;&gt;【實戰篇】給行銷人的GTM入門－埋GA碼、FB Pixel不求人 – papaya tsai – Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@papaya116/gtm%E9%80%B2%E9%9A%8E%E7%AF%87-%E5%A6%82%E4%BD%95%E7%94%A8gtm%E8%A8%AD%E5%AE%9Aga%E9%9B%BB%E5%AD%90%E5%95%86%E5%8B%99%E8%BF%BD%E8%B9%A4-346a0cbb8dea&#34;&gt;【GTM進階篇】如何用GTM設定GA電子商務追蹤 – papaya tsai – Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@papaya116/gtm%E9%80%B2%E9%9A%8E%E7%AF%87-data-layer%E5%8F%8Ajson%E6%98%AF%E4%BB%80%E9%BA%BC-%E5%AE%83%E5%80%91%E5%A6%82%E4%BD%95%E8%88%87gtm%E4%BA%92%E5%8B%95-979eae7de2d1&#34;&gt;【GTM進階篇】data layer及JSON是什麼，它們如何與GTM互動 – papaya tsai – Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://transbiz.com.tw/google-tag-manager-gtm-%E6%95%99%E5%AD%B8/&#34;&gt;Google Tag Manager 教學，一篇搞懂如何設定和管理網站追蹤碼&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Youtube</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/youtube/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/youtube/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 縮圖網址</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/youtube/photo-url/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/youtube/photo-url/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;基本縮圖&#34;&gt;基本縮圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60%60(insert-youtube-video-id-here)%60%60/0.jpg&#34;&gt;http://img.youtube.com/vi/``(insert-youtube-video-id-here)``/0.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/1.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/1.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/2.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/2.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/3.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/3.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;預設圖&#34;&gt;預設圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/default.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/default.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;高解析度預設圖&#34;&gt;高解析度預設圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/hqdefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/hqdefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;中解析度&#34;&gt;中解析度&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/mqdefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/mqdefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;標準縮圖&#34;&gt;標準縮圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/sddefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/sddefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;最大縮圖&#34;&gt;最大縮圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/maxresdefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/maxresdefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.wingzero.tw/2016/06/youtube.html&#34;&gt;取得 youtube 影片縮圖 | 紅色死神&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Facebook Instant Article</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/platform/facebook-instant-article/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/platform/facebook-instant-article/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;debug&#34;&gt;Debug&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.facebook.com/docs/instant-articles/troubleshooting&#34;&gt;Troubleshooting - Instant Articles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Line</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/line/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/line/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 服務</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;服務檢測&#34;&gt;服務檢測&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://downdetector.com/&#34;&gt;Status overview | Downdetector&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Debug</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/debug/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/debug/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en&#34;&gt;Google Analytics Debugger - Chrome Web Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 社群</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 平台</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/platform/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/platform/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 廣告</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/advertisement/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/advertisement/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;google&#34;&gt;Google&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/intl/zh-tw/adsense/start/#?modal_active=none&#34;&gt;AdSense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com.tw/intl/zh-TW/doubleclick/publishers/welcome/&#34;&gt;歡迎使用 DFP 廣告管理系統 – DoubleClick&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: SEO</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/seo/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/seo/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;教學&#34;&gt;教學&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://seo-for-newbie.kejyun.com/&#34;&gt;SEO 菜雞修煉場&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 備援</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/backup/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/backup/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;快照&#34;&gt;快照&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.archive.org/&#34;&gt;Wayback Machine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cachedview.com/index.php?lang=zh&#34;&gt;缓存查看或任意网站的网页快照 - CachedView.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 快取</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/cache/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/cache/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;清除快取&#34;&gt;清除快取&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.facebook.com/tools/debug/&#34;&gt;Facebook Debugger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cards-dev.twitter.com/validator&#34;&gt;Card Validator | Twitter Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

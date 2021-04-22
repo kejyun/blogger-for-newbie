@@ -1,0 +1,122 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>部落客菜雞修煉場 – Youtube</title>
+    <link>https://blogger-for-newbie.kejyun.com/tags/youtube/</link>
+    <description>Recent content in Youtube on 部落客菜雞修煉場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 22 Apr 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://blogger-for-newbie.kejyun.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Youtube 播放器 Mobile Friendly</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/youtube/embed-player-mobile-friendly/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/youtube/embed-player-mobile-friendly/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Youtube 原生播放器只能指定固定的寬高，在手機解析度較低時，常常會導致破版，可以用下列方法讓它自動隨遮手機解析度寬度縮放&lt;/p&gt;
+&lt;h2 id=&#34;加入-css&#34;&gt;加入 CSS&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/* Youtube Reflexive */&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;vid-container&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;position&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;relative&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;padding-bottom&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;50&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;padding-top&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;35&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;px&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;overflow&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;hidden&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;vid-container&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;iframe&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;vid-container&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;vid-container&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;embed&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;position&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;absolute&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;top&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;left&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;設定播放器-html&#34;&gt;設定播放器 HTML&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;vid-container&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;iframe&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;xxx&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;xxx&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.youtube.com/embed/(EMBED CODE)&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;frameborder&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;iframe&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;現在 Youtube 嵌入播放器就可以正常地隨著手機解析度大小縮放摟！&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.webatude.com/how-to-make-youtube-videos-reflexive-and-mobile-friendly/&#34;&gt;How To Make YouTube Embed Videos Reflexive / Mobile Friendly – WebAtude – Internet Marketing Done Right!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Youtube</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/youtube/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/youtube/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 縮圖網址</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/youtube/photo-url/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/youtube/photo-url/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;基本縮圖&#34;&gt;基本縮圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60%60(insert-youtube-video-id-here)%60%60/0.jpg&#34;&gt;http://img.youtube.com/vi/``(insert-youtube-video-id-here)``/0.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/1.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/1.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/2.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/2.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/3.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/3.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;預設圖&#34;&gt;預設圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/default.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/default.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;高解析度預設圖&#34;&gt;高解析度預設圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/hqdefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/hqdefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;中解析度&#34;&gt;中解析度&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/mqdefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/mqdefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;標準縮圖&#34;&gt;標準縮圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/sddefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/sddefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;最大縮圖&#34;&gt;最大縮圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/maxresdefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/maxresdefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.wingzero.tw/2016/06/youtube.html&#34;&gt;取得 youtube 影片縮圖 | 紅色死神&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

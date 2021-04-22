@@ -1,0 +1,120 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>部落客菜雞修煉場 – GA</title>
+    <link>https://blogger-for-newbie.kejyun.com/tags/ga/</link>
+    <description>Recent content in GA on 部落客菜雞修煉場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 22 Apr 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://blogger-for-newbie.kejyun.com/tags/ga/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Content Group 內容分類</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/content-group/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/content-group/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;設定方式&#34;&gt;設定方式&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// gtag.js:
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;gtag&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;config&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;GA_TRACKING_ID&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;content_group&amp;lt;索引號碼&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;群組名稱&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;});&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// analytics.js
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ga&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;set&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;contentGroup&amp;lt;索引號碼&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;群組名稱&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// gtag.js:
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;gtag&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;config&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;GA_TRACKING_ID&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;content_group1&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;男性&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;});&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// analytics.js:
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ga&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;set&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;contentGroup1&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;男性&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.google.com/analytics/answer/2853546?hl=zh-Hant&#34;&gt;建立/編輯內容群組 - Analytics (分析)說明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.google.com/analytics/answer/2853423?hl=zh-Hant&#34;&gt;關於內容分類 - Analytics (分析)說明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=auDIobdIeqs&#34;&gt;Content Grouping Overview - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google Analytics</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCJ5UyIAa5nEGksjcdp43Ixw&#34;&gt;Google Analytics - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Custom Dimension 自訂維度</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/custom-dimension/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/custom-dimension/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;自訂維度範圍&#34;&gt;自訂維度範圍&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;../images/custom-dimension-scope.png&#34; alt=&#34;自訂維度範圍&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;產品 – 將值套用至已設定此值的產品 (僅限「加強型電子商務」)。&lt;/li&gt;
+&lt;li&gt;匹配 – 將值套用至已設定此值的單次匹配。&lt;/li&gt;
+&lt;li&gt;工作階段 – 將值套用至單一工作階段中的所有匹配。&lt;/li&gt;
+&lt;li&gt;使用者 - 將值套用至目前和未來工作階段中的所有匹配，直到此值變更或自訂維度不再有效為止。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;產品&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;指定頁面&lt;/code&gt; 設定指定產品數值資料&lt;/p&gt;
+&lt;h3 id=&#34;匹配hit&#34;&gt;&lt;em&gt;匹配（HIT）&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;單一個 PV 會有自己的紀錄資料&lt;/p&gt;
+&lt;p&gt;PV1 的 Custom Dimension 若為 1 的話，會記錄資料 1，若之後再度造訪此頁面，將 Custom Dimension 設定為 2 時，會再記錄 2&lt;/p&gt;
+&lt;h3 id=&#34;工作階段&#34;&gt;&lt;em&gt;工作階段&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;在同一個工作階段，會記錄成相同的值&lt;/p&gt;
+&lt;p&gt;工作階段時間範圍為 30 分鐘，在第一次造訪 Custom Dimension 若為 1 會記錄資料為 1，若在工作階段中最後時間造訪，將 Custom Dimension 設為 99 時，則前面所有的 Custom Dimension 皆會設定為 99&lt;/p&gt;
+&lt;h3 id=&#34;使用者&#34;&gt;&lt;em&gt;使用者&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;同一個使用者造訪頁面，會紀錄同一個 Custom Dimension 的資料&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.google.com/analytics/answer/2709828?hl=zh-Hant&#34;&gt;自訂維度和指標 - Analytics (分析)說明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/gtagjs/custom-dims-mets&#34;&gt;Custom dimensions and metrics with gtag.js  |  Analytics for Web (gtag.js)  |  Google Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Debug</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/debug/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/service/google-analytics/debug/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en&#34;&gt;Google Analytics Debugger - Chrome Web Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

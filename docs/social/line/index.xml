@@ -1,0 +1,80 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>部落客菜雞修煉場 – Line</title>
+    <link>https://blogger-for-newbie.kejyun.com/docs/social/line/</link>
+    <description>Recent content in Line on 部落客菜雞修煉場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 22 Apr 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://blogger-for-newbie.kejyun.com/docs/social/line/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Line Message API</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/line/message-api/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/line/message-api/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;line-message-api&#34;&gt;Line Message API&lt;/h1&gt;
+&lt;h2 id=&#34;建立-line-message-api-channel&#34;&gt;建立 Line Message API Channel&lt;/h2&gt;
+&lt;p&gt;在 Line Developers 點選 &lt;code&gt;Crete new channel&lt;/code&gt; 按鈕，建立新頻道&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-create-new-channel.png&#34; alt=&#34;Create New Channel&#34;&gt;&lt;/p&gt;
+&lt;p&gt;頻道類型選擇 &lt;code&gt;Messaging API&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-choose-messaging-api.png&#34; alt=&#34;Choose Messaging Api&#34;&gt;&lt;/p&gt;
+&lt;p&gt;輸入 &lt;code&gt;App 名稱&lt;/code&gt; 及選擇 &lt;code&gt;方案&lt;/code&gt; 為 &lt;code&gt;Developer Trial&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Developer Trial&lt;/code&gt; 方案才可以不用付費進行推送訊息 Push Message 測試&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-app-name-and-plan.png&#34; alt=&#34;Choose Messaging Api&#34;&gt;&lt;/p&gt;
+&lt;p&gt;同意使用條款&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-agree-terms-of-use.png&#34; alt=&#34;Agree Terms of use&#34;&gt;&lt;/p&gt;
+&lt;p&gt;建立 &lt;code&gt;Line Message API Channel&lt;/code&gt; 完成&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-create-finish.png&#34; alt=&#34;Line Message channel create finish&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用-line-message-api-傳送訊息&#34;&gt;使用 Line Message API 傳送訊息&lt;/h2&gt;
+&lt;p&gt;以 Line PHP 套件 &lt;a href=&#34;https://github.com/line/line-bot-sdk-php&#34;&gt;GitHub - line/line-bot-sdk-php: SDK of the LINE Messaging API for PHP&lt;/a&gt; 為例&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;安裝 Line PHP 套件&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;composer require linecorp/line-bot-sdk
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;建立 LineBot Client&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;php&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;$httpClient&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;\LINE\LINEBot\HTTPClient\CurlHTTPClient&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;channel access token&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;$bot&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;\LINE\LINEBot&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$httpClient&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;channelSecret&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;channel secret&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;取得 LineBot Client &lt;channel access token&gt; 及 &lt;channel secret&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在程式碼中的 &lt;code&gt;&amp;lt;channel access token&amp;gt;&lt;/code&gt; 及 &lt;code&gt;&amp;lt;channel secret&amp;gt;&lt;/code&gt; 都可以在頻道設定中找到&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-setting.png&#34; alt=&#34;Line Message channel setting&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在下方即可找到相關 token&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-secret.png&#34; alt=&#34;Line Message channel secret&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;channel access token&amp;gt;&lt;/code&gt; 一開始沒有，需要點選 &lt;code&gt;Issue&lt;/code&gt; 按鈕產生&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-access-token-issue.png&#34; alt=&#34;Line Message channel access token&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-access-token-issue-it.png&#34; alt=&#34;Line Message channel access token&#34;&gt;&lt;/p&gt;
+&lt;p&gt;建立完成後即可看到產生的 &lt;code&gt;&amp;lt;channel access token&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-access-token-issue-finish.png&#34; alt=&#34;Line Message channel access token&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;傳送訊息&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;傳入指定的 &lt;code&gt;Line @&lt;/code&gt; &lt;em&gt;user id&lt;/em&gt; 即可將訊息推送給訂閱的人&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;php&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;$response&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;$bot&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;pushMessage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;&amp;lt;user id&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TextMessageBuilder&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;test text1&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;test text2&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;test text3&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;user id&lt;/em&gt; 可以在頻道設定最下方找到&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-channel-user-id.png&#34; alt=&#34;Line Message channel user id&#34;&gt;&lt;/p&gt;
+&lt;p&gt;傳送過去後即可看到剛剛設定的訊息&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/line-message-api/line-message-demo.png&#34; alt=&#34;Line Message channel user id&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/line/line-bot-sdk-php&#34;&gt;GitHub - line/line-bot-sdk-php: SDK of the LINE Messaging API for PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.line.biz/en/docs/messaging-api/&#34;&gt;Messaging API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.line.biz/en/docs/messaging-api/building-sample-bot-with-heroku/&#34;&gt;Building a sample bot with Heroku&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.line.biz/en/reference/messaging-api/&#34;&gt;Messaging API reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

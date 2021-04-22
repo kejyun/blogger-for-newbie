@@ -1,0 +1,69 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>部落客菜雞修煉場 – 縮圖網址</title>
+    <link>https://blogger-for-newbie.kejyun.com/categories/%E7%B8%AE%E5%9C%96%E7%B6%B2%E5%9D%80/</link>
+    <description>Recent content in 縮圖網址 on 部落客菜雞修煉場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 22 Apr 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://blogger-for-newbie.kejyun.com/categories/%E7%B8%AE%E5%9C%96%E7%B6%B2%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 縮圖網址</title>
+      <link>https://blogger-for-newbie.kejyun.com/docs/social/youtube/photo-url/</link>
+      <pubDate>Thu, 22 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://blogger-for-newbie.kejyun.com/docs/social/youtube/photo-url/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;基本縮圖&#34;&gt;基本縮圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60%60(insert-youtube-video-id-here)%60%60/0.jpg&#34;&gt;http://img.youtube.com/vi/``(insert-youtube-video-id-here)``/0.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/1.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/1.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/2.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/2.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/3.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/3.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;預設圖&#34;&gt;預設圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/default.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/default.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;高解析度預設圖&#34;&gt;高解析度預設圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/hqdefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/hqdefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;中解析度&#34;&gt;中解析度&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/mqdefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/mqdefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;標準縮圖&#34;&gt;標準縮圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/sddefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/sddefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;最大縮圖&#34;&gt;最大縮圖&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.youtube.com/vi/%60(insert-youtube-video-id-here)%60/maxresdefault.jpg&#34;&gt;http://img.youtube.com/vi/`(insert-youtube-video-id-here)`/maxresdefault.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.wingzero.tw/2016/06/youtube.html&#34;&gt;取得 youtube 影片縮圖 | 紅色死神&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
